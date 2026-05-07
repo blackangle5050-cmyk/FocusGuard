@@ -1,0 +1,32 @@
+{
+  "name": "focusguard",
+  "version": "1.0.0",
+  "description": "The focus app you can't cheat. Block distractions, remove loopholes, and stay disciplined.",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "zustand": "^4.3.9",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "lucide-react": "^0.263.1",
+    "recharts": "^2.7.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "tailwindcss": "^3.3.2",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14",
+    "vite": "^4.3.9",
+    "@vitejs/plugin-react": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  }
+}
